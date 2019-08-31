@@ -8,8 +8,10 @@ import commit from '@gitsync/commit-command';
 yargs
   .options({
     'log-level': {
+      group: 'Global Options:',
       describe: 'The level to display logs at',
-      type: 'string'
+      type: 'string',
+      default: 'info'
     }
   })
   .command(sync)
@@ -17,7 +19,7 @@ yargs
   .middleware([
     (argv) => {
       // @ts-ignore
-      log.level = argv.logLevel || 'warn';
+      log.level = argv.logLevel;
     }
   ])
   .strict()
