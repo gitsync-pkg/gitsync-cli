@@ -1,3 +1,5 @@
+#!/usr/bin/env ts-node
+
 import * as yargs from 'yargs';
 import * as log from 'npmlog';
 import sync from '@gitsync/sync-command';
