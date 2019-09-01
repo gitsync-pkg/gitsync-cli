@@ -1,6 +1,6 @@
 {
   "name": "gitsync-cli",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "The entry of Git Sync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
@@ -17,7 +17,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@gitsync/commit-command": "^1.0.0",
-    "@gitsync/sync-command": "^1.0.0"
+    "@gitsync/commit-command": "^0.1.0",
+    "@gitsync/sync-command": "^0.1.0"
   }
 }
