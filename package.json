@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@gitsync/commit-command": "^0.1.0",
+    "@gitsync/post-commit-command": "^0.1.0",
     "@gitsync/sync-command": "^0.1.0"
   }
 }

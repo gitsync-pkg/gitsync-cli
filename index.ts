@@ -4,6 +4,8 @@ import * as yargs from 'yargs';
 import * as log from 'npmlog';
 import sync from '@gitsync/sync-command';
 import commit from '@gitsync/commit-command';
+import postCommit from '@gitsync/post-commit-command';
+import prePush from '@gitsync/pre-push-command';
 
 yargs
   .options({
@@ -16,6 +18,8 @@ yargs
   })
   .command(sync)
   .command(commit)
+  .command(postCommit)
+  .command(prePush)
   .middleware([
     (argv) => {
       // @ts-ignore
