@@ -9,6 +9,9 @@
   "files": [
     "index.ts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twinh/gitsync.git"
