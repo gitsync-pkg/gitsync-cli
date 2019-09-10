@@ -1,6 +1,6 @@
 {
   "name": "gitsync-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The entry of Git Sync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
@@ -26,9 +26,9 @@
     "prepare": "yarn build"
   },
   "dependencies": {
-    "@gitsync/commit-command": "^0.1.4",
-    "@gitsync/post-commit-command": "^0.1.4",
-    "@gitsync/sync-command": "^0.1.4"
+    "@gitsync/commit-command": "^0.1.5",
+    "@gitsync/post-commit-command": "^0.1.5",
+    "@gitsync/sync-command": "^0.1.5"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
