@@ -9,6 +9,9 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "gitsync": "dist/index.js"
+  },
   "publishConfig": {
     "access": "public"
   },
