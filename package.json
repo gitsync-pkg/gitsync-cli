@@ -1,7 +1,7 @@
 {
   "name": "gitsync-cli",
   "version": "0.1.5",
-  "description": "The entry of Git Sync",
+  "description": "The entry of Gitsync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
   "license": "MIT",
