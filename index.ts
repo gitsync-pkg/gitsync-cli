@@ -4,6 +4,7 @@ import sync from '@gitsync/sync-command';
 import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
 import prePush from '@gitsync/pre-push-command';
+import update from '@gitsync/update-command';
 
 export default yargs
   .options({
@@ -16,6 +17,7 @@ export default yargs
   })
   .command(sync)
   .command(commit)
+  .command(update)
   .command(postCommit)
   .command(prePush)
   .middleware([
