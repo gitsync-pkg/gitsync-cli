@@ -40,8 +40,8 @@
     "typescript": "^3.5.3"
   },
   "ciDependencies": {
-    "@gitsync/commit-command": "gitsync-pkg/commit-command#master",
-    "@gitsync/post-commit-command": "gitsync-pkg/post-commit-command#master",
-    "@gitsync/sync-command": "gitsync-pkg/sync-command#master"
+    "@gitsync/commit-command": "gitsync-pkg/gitsync-commit-command#master",
+    "@gitsync/post-commit-command": "gitsync-pkg/gitsync-post-commit-command#master",
+    "@gitsync/sync-command": "gitsync-pkg/gitsync-sync-command#master"
   }
 }
