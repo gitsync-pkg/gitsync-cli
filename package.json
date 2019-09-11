@@ -28,7 +28,8 @@
   "dependencies": {
     "@gitsync/commit-command": "^0.1.5",
     "@gitsync/post-commit-command": "^0.1.5",
-    "@gitsync/sync-command": "^0.1.5"
+    "@gitsync/sync-command": "^0.1.5",
+    "@gitsync/pre-push-command": "^0.2.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -42,6 +43,7 @@
   "ciDependencies": {
     "@gitsync/commit-command": "gitsync-pkg/gitsync-commit-command#master",
     "@gitsync/post-commit-command": "gitsync-pkg/gitsync-post-commit-command#master",
-    "@gitsync/sync-command": "gitsync-pkg/gitsync-sync-command#master"
+    "@gitsync/sync-command": "gitsync-pkg/gitsync-sync-command#master",
+    "@gitsync/pre-push-command": "gitsync-pkg/gitsync-pre-push-command#master"
   }
 }
