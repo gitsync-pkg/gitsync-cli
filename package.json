@@ -10,7 +10,7 @@
     "dist"
   ],
   "bin": {
-    "gitsync": "dist/index.js"
+    "gitsync": "dist/cli.js"
   },
   "publishConfig": {
     "access": "public"
