@@ -12,6 +12,9 @@ before_install:
 install:
   - yarn install
 
+before_script:
+  - yarn clean
+
 script:
   - jest --coverage --coverageReporters text lcovonly
 
