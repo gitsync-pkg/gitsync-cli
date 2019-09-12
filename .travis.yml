@@ -7,6 +7,9 @@ node_js:
 before_install:
   - npx replace-pkg-dep
 
+install:
+  - yarn install
+
 script:
   - jest --coverage --coverageReporters text lcovonly
 
