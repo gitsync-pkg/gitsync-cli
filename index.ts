@@ -1,10 +1,11 @@
 import * as yargs from 'yargs';
-import * as log from 'npmlog';
+import * as npmlog from 'npmlog';
 import sync from '@gitsync/sync-command';
 import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
 import prePush from '@gitsync/pre-push-command';
 import update from '@gitsync/update-command';
+import log from '@gitsync/log';
 import git from "git-cli-wrapper";
 
 export default yargs
@@ -24,7 +25,7 @@ export default yargs
   .middleware([
     (argv) => {
       // @ts-ignore
-      log.level = argv.logLevel;
+      npmlog.level = argv.logLevel;
       git.logger = log;
     }
   ])
