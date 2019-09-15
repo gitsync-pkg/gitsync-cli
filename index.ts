@@ -5,6 +5,7 @@ import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
 import prePush from '@gitsync/pre-push-command';
 import update from '@gitsync/update-command';
+import git from "git-cli-wrapper";
 
 export default yargs
   .options({
@@ -24,6 +25,7 @@ export default yargs
     (argv) => {
       // @ts-ignore
       log.level = argv.logLevel;
+      git.logger = log;
     }
   ])
   .strict()
