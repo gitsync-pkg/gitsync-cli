@@ -30,7 +30,9 @@
     "@gitsync/post-commit-command": "^0.1.5",
     "@gitsync/sync-command": "^0.1.5",
     "@gitsync/pre-push-command": "^0.2.1",
-    "@gitsync/update-command": "^0.1.5"
+    "@gitsync/update-command": "^0.1.5",
+    "@gitsync/log": "^0.1.4",
+    "git-cli-wrapper": "^0.1.5"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
@@ -48,6 +50,8 @@
     "@gitsync/pre-push-command": "gitsync-pkg/gitsync-pre-push-command#master",
     "@gitsync/update-command": "gitsync-pkg/gitsync-update-command#master",
     "@gitsync/config": "gitsync-pkg/gitsync-config#master",
-    "@gitsync/test": "gitsync-pkg/gitsync-config#master"
+    "@gitsync/test": "gitsync-pkg/gitsync-test#master",
+    "@gitsync/log": "gitsync-pkg/gitsync-log#master",
+    "git-cli-wrapper": "twinh/git-cli-wrapper#master"
   }
 }
