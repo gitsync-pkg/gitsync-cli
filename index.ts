@@ -5,6 +5,7 @@ import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
 import prePush from '@gitsync/pre-push-command';
 import update from '@gitsync/update-command';
+import exec from '@gitsync/exec-command';
 import log from '@gitsync/log';
 import git from "git-cli-wrapper";
 
@@ -22,6 +23,7 @@ export default yargs
   .command(update)
   .command(postCommit)
   .command(prePush)
+  .command(exec)
   .middleware([
     (argv) => {
       // @ts-ignore
