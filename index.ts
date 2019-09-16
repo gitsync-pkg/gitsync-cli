@@ -10,6 +10,9 @@ import log from '@gitsync/log';
 import git from "git-cli-wrapper";
 
 export default yargs
+  .parserConfiguration({
+    'populate--': true
+  })
   .options({
     'log-level': {
       group: 'Global Options:',
