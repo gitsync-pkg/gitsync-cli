@@ -4,6 +4,7 @@ import sync from '@gitsync/sync-command';
 import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
 import prePush from '@gitsync/pre-push-command';
+import push from '@gitsync/push-command';
 import update from '@gitsync/update-command';
 import exec from '@gitsync/exec-command';
 import log from '@gitsync/log';
@@ -26,6 +27,7 @@ export default yargs
   .command(update)
   .command(postCommit)
   .command(prePush)
+  .command(push)
   .command(exec)
   .middleware([
     (argv) => {
