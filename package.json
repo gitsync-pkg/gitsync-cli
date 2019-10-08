@@ -53,6 +53,7 @@
     "@gitsync/update-command": "gitsync-pkg/gitsync-update-command",
     "@gitsync/exec-command": "gitsync-pkg/gitsync-exec-command",
     "@gitsync/config": "gitsync-pkg/gitsync-config",
+    "@gitsync/sync": "gitsync-pkg/gitsync-sync",
     "@gitsync/test": "gitsync-pkg/gitsync-test",
     "@gitsync/log": "gitsync-pkg/gitsync-log",
     "git-cli-wrapper": "twinh/git-cli-wrapper"
