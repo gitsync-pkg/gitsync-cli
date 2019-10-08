@@ -30,6 +30,7 @@
     "@gitsync/exec-command": "^0.2.0",
     "@gitsync/log": "^0.2.0",
     "@gitsync/post-commit-command": "^0.2.0",
+    "@gitsync/post-merge-command": "^0.2.0",
     "@gitsync/pre-push-command": "^0.2.2",
     "@gitsync/sync-command": "^0.2.0",
     "@gitsync/update-command": "^0.2.0",
@@ -47,6 +48,7 @@
   "ciDependencies": {
     "@gitsync/commit-command": "gitsync-pkg/gitsync-commit-command",
     "@gitsync/post-commit-command": "gitsync-pkg/gitsync-post-commit-command",
+    "@gitsync/post-merge-command": "gitsync-pkg/gitsync-post-merge-command",
     "@gitsync/sync-command": "gitsync-pkg/gitsync-sync-command",
     "@gitsync/pre-push-command": "gitsync-pkg/gitsync-pre-push-command",
     "@gitsync/push-command": "gitsync-pkg/gitsync-push-command",

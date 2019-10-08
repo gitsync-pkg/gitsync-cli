@@ -3,6 +3,7 @@ import * as npmlog from 'npmlog';
 import sync from '@gitsync/sync-command';
 import commit from '@gitsync/commit-command';
 import postCommit from '@gitsync/post-commit-command';
+import postMerge from '@gitsync/post-merge-command';
 import prePush from '@gitsync/pre-push-command';
 import push from '@gitsync/push-command';
 import update from '@gitsync/update-command';
@@ -26,6 +27,7 @@ export default yargs
   .command(commit)
   .command(update)
   .command(postCommit)
+  .command(postMerge)
   .command(prePush)
   .command(push)
   .command(exec)
