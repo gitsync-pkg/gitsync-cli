@@ -34,6 +34,7 @@
     "@gitsync/pre-push-command": "^0.4.0",
     "@gitsync/sync-command": "^0.4.0",
     "@gitsync/update-command": "^0.4.0",
+    "@gitsync/import-command": "^0.4.0",
     "git-cli-wrapper": "^0.3.1"
   },
   "devDependencies": {
