@@ -144,35 +144,44 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@gitsync/commit-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/commit-command/-/commit-command-0.4.0.tgz#d43cd19d0eec49cdc52d05bc1fcbe2766aee5110"
-  integrity sha512-s1LkZ2xhO8a5eSr6x0T/GuJAXWPEt0z3Dz8EcmDuQ8wMkgO/QxgXMZaQ3du7Z13UfMn6KY5c1fY0AX4rlM9awg==
+"@gitsync/commit-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/commit-command/-/commit-command-0.5.0.tgz#8766240e5d99b7a9bfba69ff92457d0241e11048"
+  integrity sha512-XFZGLS5aN21nl4rD9nnx0aHSXMQpINbQrll/D6pS5VkEcB0Lp2myKoryTxfyRJ09TdH93ZkWFQ9EiMEY0bUFFw==
   dependencies:
-    "@gitsync/config" "^0.4.0"
-    "@gitsync/sync" "^0.4.0"
-    chalk-theme "^0.2.2"
+    "@gitsync/config" "^0.5.0"
+    "@gitsync/log" "^0.4.0"
+    "@gitsync/sync" "^0.5.0"
+    chalk-theme "^0.2.3"
+    yargs "^15.0.2"
 
-"@gitsync/config@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/config/-/config-0.4.0.tgz#aad83bd680fcbdc4aeee279e72515762041f7d30"
-  integrity sha512-zSuveiA+P9YEpaOCwoc9ByuHcJ6s051OH8Zigjlajc5WSfsJtu01RVsVVWnkHsqkeR87dXZLstAhH55jS2Ibqw==
+"@gitsync/config@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/config/-/config-0.5.0.tgz#7158046caf2800eac2e97582b06e4a98e6ae3274"
+  integrity sha512-qt+87aGYewBzpGCxuJ/2o37U7PCaRK3VnqZk24roRoJLE3T0eQJGHMiMCLUbFafuChdYhyndCiUSfLc8FQiaXg==
   dependencies:
     "@gitsync/log" "^0.4.0"
     "@types/empty-dir" "^2.0.0"
     "@types/micromatch" "^3.1.0"
     empty-dir "^2.0.0"
-    git-cli-wrapper "^0.3.1"
+    git-cli-wrapper "^0.3.2"
     micromatch "^4.0.2"
 
-"@gitsync/exec-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/exec-command/-/exec-command-0.4.0.tgz#7bd16eee62fa58f935a2dfa3cce8d836ede748a6"
-  integrity sha512-bcOJuwb1EPaAv/SgxZrnaazTvbZTd1nqqj0z7AUO80kSa3Q7K/UDaYUKzFJcpt9kL1Fdm8pJu5puWrWUyb30Pw==
+"@gitsync/exec-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/exec-command/-/exec-command-0.5.0.tgz#aa221317b8d3fd458f934535d22936a742d6c33b"
+  integrity sha512-JZvEwWOTZWam9HkN5zJ+Ghois//LLwgY7F7mhHI9zJjBXU4+zkMILUOH961F0MzzKf3Z50WMeqxz4cJHtVhRpA==
   dependencies:
-    "@gitsync/config" "^0.4.0"
-    chalk-theme "^0.2.2"
+    "@gitsync/config" "^0.5.0"
+    chalk-theme "^0.2.3"
     execa "^2.0.4"
+
+"@gitsync/import-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/import-command/-/import-command-0.5.0.tgz#76274496e3b2af413e2746a14deb1dc9ec46f71c"
+  integrity sha512-HuZi+TKlJCLlzcqlNIk9VFzBNJZOC6iMPb7IkVGDqlmJDI/ZjbBb+iqiYb943mHM1/lfHAiJDBIk1FY61AoSDA==
+  dependencies:
+    "@gitsync/sync" "^0.5.0"
 
 "@gitsync/log@^0.4.0":
   version "0.4.0"
@@ -183,63 +192,63 @@
     "@types/npmlog" "^4.1.2"
     npmlog "^4.1.2"
 
-"@gitsync/post-commit-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/post-commit-command/-/post-commit-command-0.4.0.tgz#2270caeb98605ac6a6393a0213a2257a8c152e3a"
-  integrity sha512-zTHhcZTnpdpgNUkEQ5m8eg8BFDqATkSFWlAqjU37uT0MJ3BsnPN1EUwN2wmoLfLHnUL4L40lGPnJxToK7iYmrw==
+"@gitsync/post-commit-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/post-commit-command/-/post-commit-command-0.5.0.tgz#76c7134888d17d4ef10af09b42b0fd55b5d714c6"
+  integrity sha512-jSX3+am5Xd4rAUdPXP/T4KMvj6KHmeuhHp26YaXlW26enPhHofzF/+fYe97qrvPC55PNSAPep3WuOfdbsQc4RQ==
   dependencies:
-    "@gitsync/commit-command" "^0.4.0"
-    "@gitsync/sync" "^0.4.0"
+    "@gitsync/commit-command" "^0.5.0"
+    "@gitsync/sync" "^0.5.0"
 
-"@gitsync/post-merge-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/post-merge-command/-/post-merge-command-0.4.0.tgz#7be93866a98f4faf62c9e7c6cc77b227a94d7e3e"
-  integrity sha512-QmasATeHceUgwqMFVcG2dHddSPfQBaJq9Tc6R+T3K2AsOo0vJxhqnfmeOBVNVfoIfq8DqgnzQWM+AdeSiwnaqg==
+"@gitsync/post-merge-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/post-merge-command/-/post-merge-command-0.5.0.tgz#7cfd9f76e35ffc841c12a6a67ed3f3432d790f5f"
+  integrity sha512-FsOwIV+g3xTJyX4XSPRfysSUPI1gkolsAvfCW8conPHUgq1GFJVqXGJw78jNabe4M10CUQsgVOLOue1xeLt+Ig==
   dependencies:
-    "@gitsync/commit-command" "^0.4.0"
-    "@gitsync/sync" "^0.4.0"
+    "@gitsync/commit-command" "^0.5.0"
+    "@gitsync/sync" "^0.5.0"
 
-"@gitsync/pre-push-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/pre-push-command/-/pre-push-command-0.4.0.tgz#d8591c564e5703f88ee4904b5d0e0c593748b498"
-  integrity sha512-z8JDrPCNx+dXWlXkQkR9v/LwCKEcRjh1Y8o+yH7N/oAy783WUEBxizlY3U3126+SLXAc96PWmXWc3ukPDTlelw==
+"@gitsync/pre-push-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/pre-push-command/-/pre-push-command-0.5.0.tgz#fa891541c5a7953e80f1c054eb8d5c52dabad306"
+  integrity sha512-wfv0wIC9xH5cnDQBcXH3cUtZxbWuZqBRlnIurH4Tubl2oeMJIt8AJdV01uiTC/btMlNnXCPxxzHu73nNK3Np6Q==
   dependencies:
-    "@gitsync/commit-command" "^0.4.0"
+    "@gitsync/commit-command" "^0.5.0"
 
-"@gitsync/sync-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/sync-command/-/sync-command-0.4.0.tgz#642ccd61c20c39a936037b64cc7b34d54b2d69fa"
-  integrity sha512-ammiroDowBwIOwC0qmjZOZjAmstSxlL50/BA9kmS2xC+oUa7retRH1Lz37eJdro856b3EF0ArWlIrXaPquCxPA==
+"@gitsync/sync-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/sync-command/-/sync-command-0.5.0.tgz#178821a155da19970f9cf96d5a851f5bee23b24a"
+  integrity sha512-bq/uhwyvYcQ909mOXNC9dYi3IOf/JkZcjCQ+XUDeeYGHPOinrcLVvJRrOFD4qYJ9DnJWTSASCgSrQi4trZLCFw==
   dependencies:
-    "@gitsync/sync" "^0.4.0"
+    "@gitsync/sync" "^0.5.0"
 
-"@gitsync/sync@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/sync/-/sync-0.4.0.tgz#5e180792293448fc5c399cae6cf8a4035483c261"
-  integrity sha512-+nQYVS4FGkaRTjvyrR4Pup0noVv4mqCi3i9l2wASzn6F7kP8ZxmN7cGMuhFPwPGmy4K5jdqwUDrK5qb1121ZdQ==
+"@gitsync/sync@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/sync/-/sync-0.5.0.tgz#39f629fd356ffb6afba0178c2a019963fd9fbb3f"
+  integrity sha512-PfDRzTcjWLb2W/wUgDNYsio3igO5KEZYEFOHlwdYD+tEcRNtHuF4pLP7NTCrCWXfLIrAiEVy2hbNuDw+7++LTA==
   dependencies:
-    "@gitsync/config" "^0.4.0"
+    "@gitsync/config" "^0.5.0"
     "@gitsync/log" "^0.4.0"
     "@types/inquirer" "^6.5.0"
     "@types/lodash" "^4.14.138"
     "@types/micromatch" "^3.1.0"
     "@types/progress" "^2.0.3"
     "@types/yargs" "^13.0.2"
-    chalk-theme "^0.2.2"
-    git-cli-wrapper "^0.3.1"
+    chalk-theme "^0.2.3"
+    git-cli-wrapper "^0.3.2"
     inquirer "^7.0.0"
     lodash "^4.17.15"
     micromatch "^4.0.2"
     progress "^2.0.3"
     yargs "^13.0.0"
 
-"@gitsync/update-command@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@gitsync/update-command/-/update-command-0.4.0.tgz#d672ec90b5166a722b1449c6a160f74dd91a6d1b"
-  integrity sha512-K9PpnqQLq3a3NeBkJZe0zUVPxWXWYL7Ed0trkSaa2H1GV4WjCCCOAhkfaUUYJZUMQS60CAUSOpjsL12xi4eVOw==
+"@gitsync/update-command@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@gitsync/update-command/-/update-command-0.5.0.tgz#b91209d7b87a7e181faf6b82aae01769b6bd9057"
+  integrity sha512-obAX6DVds3Z8t0SRwIjhLMgg3M75Or1v6Wc1i64ZNBPabQa7FPxZZ+S9ExYsmTwYWJKiMzHniw2Y+/VDD7hbhQ==
   dependencies:
-    "@gitsync/config" "^0.4.0"
-    "@gitsync/sync" "^0.4.0"
+    "@gitsync/config" "^0.5.0"
+    "@gitsync/sync" "^0.5.0"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
@@ -427,6 +436,11 @@
   resolved "https://registry.yarnpkg.com/@types/braces/-/braces-3.0.0.tgz#7da1c0d44ff1c7eb660a36ec078ea61ba7eb42cb"
   integrity sha512-TbH79tcyi9FHwbyboOKeRachRq63mSuWYXOflsNO9ZyE5ClQ/JaozNKl+aWUq87qPNsXasXxi2AbgfwIJ+8GQw==
 
+"@types/color-name@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
+  integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+
 "@types/empty-dir@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/empty-dir/-/empty-dir-2.0.0.tgz#fc40e385727b1625c5cb5021ecf9cd28efeafe8a"
@@ -578,9 +592,9 @@ acorn-walk@^6.0.1:
   integrity sha1-Ejy487hMIXHx9/slJhWxx4prGow=
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.npm.taobao.org/acorn/download/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha1-Z6ojG/iBKXS4UjWpZ3Hra9B+onk=
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.3.0"
@@ -635,6 +649,14 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   integrity sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
   dependencies:
     color-convert "^1.9.0"
+
+ansi-styles@^4.0.0:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-4.2.1.tgz#90ae75c424d008d2624c5bf29ead3177ebfcf359"
+  integrity sha512-9VGjrMsG1vePxcSweQsN20KY/c4zN0h9fLjqAbwbPfahM3t+NL+M9HC8xeXG2I8pX5NoamTGNuomEUFI7fcUjA==
+  dependencies:
+    "@types/color-name" "^1.1.1"
+    color-convert "^2.0.1"
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -903,10 +925,10 @@ caseless@~0.12.0:
   resolved "https://registry.npm.taobao.org/caseless/download/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chalk-theme@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/chalk-theme/-/chalk-theme-0.2.2.tgz#d284cb5943c54454eab1227206f471f54aafb9b3"
-  integrity sha512-fbBV/6Pv0C98HwMBVYjsE6cuF17WunQQ7jGsE1vGaSPtPQguhCjF20Eq38dQwNChqvC+X1pUYz8hfLLVKRJRsw==
+chalk-theme@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/chalk-theme/-/chalk-theme-0.2.3.tgz#819234be5088d53950db0453dbcf6a5615e6d260"
+  integrity sha512-B9ISfvsH6pVuchbIFNDfn5yJqxYsXWmxwu3g2KmzC7gPEGTc6rClZUyo763HAcyvEHDfxFSSPooYc6bc6QZuAQ==
   dependencies:
     chalk "^2.0.0"
     strip-ansi "^5.2.0"
@@ -966,6 +988,15 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
+cliui@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/cliui/-/cliui-6.0.0.tgz#511d702c0c4e41ca156d7d0e96021f23e13225b1"
+  integrity sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==
+  dependencies:
+    string-width "^4.2.0"
+    strip-ansi "^6.0.0"
+    wrap-ansi "^6.2.0"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npm.taobao.org/co/download/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -991,10 +1022,22 @@ color-convert@^1.9.0:
   dependencies:
     color-name "1.1.3"
 
+color-convert@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
+  integrity sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
+  dependencies:
+    color-name "~1.1.4"
+
 color-name@1.1.3:
   version "1.1.3"
   resolved "https://registry.npm.taobao.org/color-name/download/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
   integrity sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+
+color-name@~1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
+  integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
@@ -1485,6 +1528,14 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+find-up@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
+  dependencies:
+    locate-path "^5.0.0"
+    path-exists "^4.0.0"
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/for-in/download/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -1581,13 +1632,13 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-cli-wrapper@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/git-cli-wrapper/-/git-cli-wrapper-0.3.1.tgz#33db6b850432145f543161334e922216c41ed7a6"
-  integrity sha512-mSCkuhMHNuwjYsSqA7KPXvFQQ1XvgfEz6LD7GEw/de9433w7QqQsaLv6LXP8MbHn7g6LanI+VxCND8ka2qZF+A==
+git-cli-wrapper@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/git-cli-wrapper/-/git-cli-wrapper-0.3.2.tgz#83546971c5801245672b94e87d61377a9c2ab48b"
+  integrity sha512-9YRLZ04wxC9EyjO0O77+AauV90//P9yJKCMLMnXA2fj50swi6jAWyPI0yOWfZpTtc9MReMyLEMkq2Xc/Fkzk9g==
   dependencies:
     "@types/node" "^12.7.3"
-    chalk-theme "^0.2.2"
+    chalk-theme "^0.2.3"
     execa "^2.0.0"
 
 glob@^7.1.1, glob@^7.1.2, glob@^7.1.3:
@@ -2549,6 +2600,13 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+locate-path@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
+  dependencies:
+    p-locate "^4.1.0"
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npm.taobao.org/lodash.sortby/download/lodash.sortby-4.7.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash.sortby%2Fdownload%2Flodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -3001,12 +3059,26 @@ p-limit@^2.0.0:
   dependencies:
     p-try "^2.0.0"
 
+p-limit@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.3.0.tgz#3dd33c647a214fdfffd835933eb086da0dc21db1"
+  integrity sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==
+  dependencies:
+    p-try "^2.0.0"
+
 p-locate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/p-locate/download/p-locate-3.0.0.tgz#322d69a05c0264b25997d9f40cd8a891ab0064a4"
   integrity sha1-Mi1poFwCZLJZl9n0DNiokasAZKQ=
   dependencies:
     p-limit "^2.0.0"
+
+p-locate@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
+  integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
+  dependencies:
+    p-limit "^2.2.0"
 
 p-reduce@^1.0.0:
   version "1.0.0"
@@ -3040,6 +3112,11 @@ path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/path-exists/download/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
+
+path-exists@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+  integrity sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -3660,7 +3737,7 @@ string-width@^3.0.0, string-width@^3.1.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
-string-width@^4.1.0:
+string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
   integrity sha512-zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==
@@ -4090,6 +4167,15 @@ wrap-ansi@^5.1.0:
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
 
+wrap-ansi@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-6.2.0.tgz#e9393ba07102e6c91a3b221478f0257cd2856e53"
+  integrity sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==
+  dependencies:
+    ansi-styles "^4.0.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/wrappy/download/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
@@ -4141,6 +4227,14 @@ yargs-parser@^13.1.1:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
 
+yargs-parser@^18.1.1:
+  version "18.1.3"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-18.1.3.tgz#be68c4975c6b2abf469236b0c870362fab09a7b0"
+  integrity sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
 yargs@^13.0.0, yargs@^13.3.0:
   version "13.3.0"
   resolved "https://registry.npm.taobao.org/yargs/download/yargs-13.3.0.tgz?cache=0&sync_timestamp=1567812307271&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-13.3.0.tgz#4c657a55e07e5f2cf947f8a366567c04a0dedc83"
@@ -4156,3 +4250,20 @@ yargs@^13.0.0, yargs@^13.3.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
+
+yargs@^15.0.2:
+  version "15.3.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.3.1.tgz#9505b472763963e54afe60148ad27a330818e98b"
+  integrity sha512-92O1HWEjw27sBfgmXiixJWT5hRBp2eobqXicLtPBIDBhYB+1HpwZlXmbW2luivBJHBzki+7VyCLRtAkScbTBQA==
+  dependencies:
+    cliui "^6.0.0"
+    decamelize "^1.2.0"
+    find-up "^4.1.0"
+    get-caller-file "^2.0.1"
+    require-directory "^2.1.1"
+    require-main-filename "^2.0.0"
+    set-blocking "^2.0.0"
+    string-width "^4.2.0"
+    which-module "^2.0.0"
+    y18n "^4.0.0"
+    yargs-parser "^18.1.1"
