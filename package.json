@@ -1,6 +1,6 @@
 {
   "name": "gitsync-cli",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "The entry of Gitsync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
@@ -26,15 +26,15 @@
     "prepare": "yarn build"
   },
   "dependencies": {
-    "@gitsync/commit-command": "^0.5.1",
-    "@gitsync/exec-command": "^0.5.0",
-    "@gitsync/import-command": "^0.5.1",
+    "@gitsync/commit-command": "^0.6.0",
+    "@gitsync/exec-command": "^0.5.1",
+    "@gitsync/import-command": "^0.6.0",
     "@gitsync/log": "^0.4.0",
-    "@gitsync/post-commit-command": "^0.5.1",
-    "@gitsync/post-merge-command": "^0.5.1",
-    "@gitsync/pre-push-command": "^0.5.1",
-    "@gitsync/sync-command": "^0.5.1",
-    "@gitsync/update-command": "^0.5.1",
+    "@gitsync/post-commit-command": "^0.5.2",
+    "@gitsync/post-merge-command": "^0.5.2",
+    "@gitsync/pre-push-command": "^0.5.2",
+    "@gitsync/sync-command": "^0.5.2",
+    "@gitsync/update-command": "^0.6.0",
     "git-cli-wrapper": "^0.3.2"
   },
   "devDependencies": {
