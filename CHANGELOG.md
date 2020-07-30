@@ -1,4 +1,14 @@
-## [0.5.2](https://github.com/twinh/gitsync/compare/gitsync-cli@0.5.1...gitsync-cli@0.5.2) (2020-07-21)
+## [0.5.3](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.2...v0.5.3) (2020-07-30)
+
+
+
+
+
+### Dependencies
+
+* **@gitsync/pre-push-command:** upgrade from 0.5.2 to 0.5.3
+
+## [0.5.2](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.1...v0.5.2) (2020-07-21)
 
 
 
