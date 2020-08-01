@@ -1,3 +1,10 @@
+## [0.5.4](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.3...v0.5.4) (2020-08-01)
+
+
+### Bug Fixes
+
+* **dep:** gitsync-cli add @gitsync/push-command dependency ([30734c2](https://github.com/gitsync-pkg/gitsync-cli/commit/30734c262c4bf58af1a735dee2636023e65439d1))
+
 ## [0.5.3](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.2...v0.5.3) (2020-07-30)
 
 
