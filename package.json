@@ -33,6 +33,7 @@
     "@gitsync/post-commit-command": "^0.5.2",
     "@gitsync/post-merge-command": "^0.5.2",
     "@gitsync/pre-push-command": "^0.5.3",
+    "@gitsync/push-command": "^0.5.4",
     "@gitsync/sync-command": "^0.5.2",
     "@gitsync/update-command": "^0.6.0",
     "git-cli-wrapper": "^0.3.2"
