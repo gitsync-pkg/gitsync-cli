@@ -1,3 +1,18 @@
+# [0.6.0](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.4...v0.6.0) (2020-08-04)
+
+
+### Features
+
+* add ci command ([4885f3b](https://github.com/gitsync-pkg/gitsync-cli/commit/4885f3b7c183fc94ce7e030c71da118116cf4952))
+
+
+
+
+
+### Dependencies
+
+* **@gitsync/ci-command:** upgrade from  to 1.0.0
+
 ## [0.5.4](https://github.com/gitsync-pkg/gitsync-cli/compare/v0.5.3...v0.5.4) (2020-08-01)
 
 

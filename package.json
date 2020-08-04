@@ -1,6 +1,6 @@
 {
   "name": "gitsync-cli",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "description": "The entry of Gitsync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
@@ -36,7 +36,7 @@
     "@gitsync/push-command": "^0.5.4",
     "@gitsync/sync-command": "^0.5.2",
     "@gitsync/update-command": "^0.6.0",
-    "@gitsync/ci-command": "^0.6.0",
+    "@gitsync/ci-command": "^1.0.0",
     "git-cli-wrapper": "^0.3.2"
   },
   "devDependencies": {
