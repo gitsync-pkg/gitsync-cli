@@ -1,6 +1,6 @@
 {
   "name": "gitsync-cli",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "The entry of Gitsync",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/gitsync#readme",
