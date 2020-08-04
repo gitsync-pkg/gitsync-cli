@@ -36,6 +36,7 @@
     "@gitsync/push-command": "^0.5.4",
     "@gitsync/sync-command": "^0.5.2",
     "@gitsync/update-command": "^0.6.0",
+    "@gitsync/ci-command": "^0.6.0",
     "git-cli-wrapper": "^0.3.2"
   },
   "devDependencies": {
@@ -56,6 +57,7 @@
     "@gitsync/push-command": "gitsync-pkg/gitsync-push-command",
     "@gitsync/update-command": "gitsync-pkg/gitsync-update-command",
     "@gitsync/exec-command": "gitsync-pkg/gitsync-exec-command",
+    "@gitsync/ci-command": "gitsync-pkg/gitsync-ci-command",
     "@gitsync/config": "gitsync-pkg/gitsync-config",
     "@gitsync/sync": "gitsync-pkg/gitsync-sync",
     "@gitsync/test": "gitsync-pkg/gitsync-test",

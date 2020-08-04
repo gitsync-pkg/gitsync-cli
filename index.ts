@@ -9,6 +9,7 @@ import prePush from '@gitsync/pre-push-command';
 import push from '@gitsync/push-command';
 import update from '@gitsync/update-command';
 import exec from '@gitsync/exec-command';
+import ci from '@gitsync/ci-command';
 import log from '@gitsync/log';
 import git from 'git-cli-wrapper';
 
@@ -33,6 +34,7 @@ export default yargs
   .command(prePush)
   .command(push)
   .command(exec)
+  .command(ci)
   .middleware([
     argv => {
       // @ts-ignore
